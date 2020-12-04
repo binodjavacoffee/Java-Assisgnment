@@ -20,6 +20,7 @@ public class DuplicatesLetter {
 			} else {
 				map.put(c, 1);
 			}
+			input.close();
 		}
 		System.out.print("Duplicate Characrters are:");
 		for (char c : map.keySet()) {
